@@ -26,6 +26,8 @@ class CoinContainer extends React.Component {
     }
 
     flipCoin = () => {
+
+        
         const newCoin = choice(this.props.coins);
         this.setState(oldState => {
             return {
