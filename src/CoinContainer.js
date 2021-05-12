@@ -22,6 +22,7 @@ class CoinContainer extends React.Component {
             numHeads: 0,
             numTails: 0
         };
+        
         this.handleClick = this.handleClick.bind(this);
     }
 
